@@ -74,22 +74,16 @@ h1, h2, h3, h4, h5 {
 
 .servicesHeader {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
+	/* Line 79 is doing something, just not what I want it to */
+	justify-content: space-evenly;
 	border: 1px solid grey;
 }
 
-/* header .sectionNav {
+/* I don't know why this isn't working */
+/* .servicesHeader .sectionNav {
 	display: flex;
 	justify-content: space-between;
-} */
-
-/* .services-header-img {
-	margin: auto;
-	width: 100%;
-} */
-
-/* .topofContent .services-header-img img {
-	width: 100%;
 } */
 
 .topOfContent {
@@ -98,6 +92,10 @@ h1, h2, h3, h4, h5 {
 	border-bottom: 1px solid black;
 }
 
+/* I don't know why this isn't working
+.topOfContent .services-info-img {
+	width: 100%;
+} */
 
 .topOfContent .intro {
 	margin-top: 30px;
@@ -111,7 +109,6 @@ h1, h2, h3, h4, h5 {
 	display:flex;
 	flex-wrap: wrap;
 }
-
 
 .content button {
 	width: 60%;
@@ -169,7 +166,9 @@ h1, h2, h3, h4, h5 {
 }
 
 .bottomOfContent {
-	border: 1px solid grey;	
+	border-top: 1px solid black;
+	boder-width: thick;
+	padding-top: 10px;	
 	margin: 30px;
 	display: flex;
 }
@@ -180,6 +179,10 @@ h1, h2, h3, h4, h5 {
 	margin: 30px;
 }
 
+.bottomText ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
 
 .services-info-img {
 	margin: 30px;
