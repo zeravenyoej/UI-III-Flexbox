@@ -64,3 +64,128 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container {
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+.servicesHeader {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid grey;
+}
+
+/* header .sectionNav {
+	display: flex;
+	justify-content: space-between;
+} */
+
+/* .services-header-img {
+	margin: auto;
+	width: 100%;
+} */
+
+/* .topofContent .services-header-img img {
+	width: 100%;
+} */
+
+.topOfContent {
+	margin: 30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+
+.topOfContent .intro {
+	margin-top: 30px;
+}
+
+.topOfContent .intro h1 {
+	font-size: 150%;
+}
+.content {
+	margin: 30px;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+
+.content button {
+	width: 60%;
+	border: 1px solid black;
+	padding: 5%;
+	border-radius: 5px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.designAndUX {
+	display: flex;
+	justify-content: space-between;
+}
+
+.designAndUX section{
+	background: lightgrey;
+	border: 1px solid black;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	height: 90%;
+	align-content: flex-start;
+}
+
+.digitalAndWeb {
+	display: flex;
+	justify-content: space-between;
+}
+
+.digitalAndWeb section {
+	background: lightgrey;
+	border: 1px solid black;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	height: 90%;
+	}
+
+.iosANDAndroid {
+	display: flex;
+	justify-content: space-between;
+}
+
+.iosANDAndroid section {
+	background: lightgrey;
+	border: 1px solid black;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	height: 90%;
+}
+
+.bottomOfContent {
+	border: 1px solid grey;	
+	margin: 30px;
+	display: flex;
+}
+
+.bottomOfContent .bottomText {
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+}
+
+
+.services-info-img {
+	margin: 30px;
+}
+
+.sectionFooter {
+	text-align: center;
+	margin: 25px;
+}
