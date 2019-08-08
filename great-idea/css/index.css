@@ -69,23 +69,17 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 900px;
 	margin: auto;
-	border: 1px solid red;
 }
 
-/* .servicesHeader {
-	display: flex;
-	flex-direction: row;
-	/* Line 79 is doing something, just not what I want it to */
-	/* justify-content: space-evenly; */
-	/* border: 1px solid grey;
-} */ */
+.servicesHeader {
+	/* padding-top: 30px; */
+}
 
-/* code below isn't working */
-.sectionNav a {
+.sectionNav {
 	display: flex;
-	text-decoration: none;
 	justify-content: space-evenly;
-	/* flex-direction: row; */
+	align-items: center;
+	margin-top: 50px;
 }
 
 .topOfContent {
